@@ -30,51 +30,51 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |
 |	** API Server **
 |	
-|        a Docker container 
+|            a Docker container
 |        
-|        Node.js Restful API service
+|            Node.js Restful API service
 |        
-|        TypeScript
+|            TypeScript
 |
-|        TypeORM
+|            TypeORM
 |
 |------------------------------------
 |  
 |	** Web Server **
 |	
-|        a Docker container 
+|            a Docker container
 |        
-|        React server-side rendering on Node.js
+|            React server-side rendering on Node.js
 |        
-|        rich Single Page Application client render
+|            rich Single Page Application client render
 |        
-|        TypeScript
+|            TypeScript
 |
-|        React
+|            React
 |
-|        Redux
+|            Redux
 |
-|        ReactRouter
+|            ReactRouter
 |
-|        communicates to API via JSON ajax
+|            communicates to API via JSON ajax
 |
 |------------------------------------
 |        
 |    ** Nginx **
 |    
-|        a Docker container 
+|            a Docker container
 |
-|        web front-facing server
+|            web front-facing server
 |		 
-|        proxing to API and Web server
+|            proxing to API and Web server
 |       
-|        handling SSL connection
+|            handling SSL connection
 |
 |------------------------------------
 |
 |    ** MySQL **
 |    
-|        MySQL Docker container 
+|            MySQL Docker container
 |
 ------------------------------------
 ```
