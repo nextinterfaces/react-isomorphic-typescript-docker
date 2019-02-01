@@ -1,0 +1,55 @@
+version: "2"
+
+# forked from https://github.com/nextinterfaces/code-for-blogs/tree/master/nginx-docker
+services:
+    api:
+        container_name: h_api
+        build: api_container/
+        ports:
+         - 9090:9090
+        volumes:
+          - ./:/app
+        working_dir: /app
+        depends_on:
+          - mysql
+    ui:
+        container_name: h_ui
+        build: ui_container/
+        ports:
+         - 9080:9080
+        volumes:
+          - ./:/app
+        links:
+         - api:api_server
+        working_dir: /app
+        depends_on:
+          - api
+    nginx:
+        container_name: h_ng
+        build: nginx_container/
+        ports:
+         - 443:443
+         - 80:80
+        volumes:
+          - ./:/app
+        links:
+         - ui:ui_server
+         - api:api_server
+        working_dir: /app
+        depends_on:
+          - api
+          - ui
+    mysql:
+        container_name: h_db
+        image: mariadb
+        volumes:
+          - ./:/app
+          - dbdata:/var/lib/mysql
+        ports:
+         - 9306:3306
+        environment:
+          - MYSQL_DATABASE=nextinterfaces_db
+          - MYSQL_ROOT_PASSWORD=password
+        working_dir: /app
+volumes:
+    dbdata:

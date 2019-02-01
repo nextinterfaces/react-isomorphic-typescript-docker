@@ -1,0 +1,6 @@
+export const Types = {
+    USER_OBJ: 'USER_OBJ',
+    CONDITIONS: 'CONDITIONS',
+    PROTOCOLS: 'PROTOCOLS',
+    CONDITION_INFO: 'CONDITION_INFO',
+}

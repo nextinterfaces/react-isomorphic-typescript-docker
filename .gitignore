@@ -1,0 +1,10 @@
+node_modules
+src/**/*.js
+src/**/*.js.map
+
+dist
+
+_junk
+_branding
+
+package-lock.json

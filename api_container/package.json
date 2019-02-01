@@ -1,0 +1,36 @@
+{
+  "name": "nextinterfaces-api",
+  "version": "0.0.1",
+  "description": "API using Koa and TypeORM with TypeScript.",
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example",
+    "typeorm-koa-example"
+  ],
+  "devDependencies": {
+    "@types/koa": "^2.0.45",
+    "@types/koa-bodyparser": "^4.2.0",
+    "@types/koa-router": "^7.0.27",
+    "@types/node": "^9.6.5",
+    "concurrently": "^3.6.1",
+    "nodemon": "^1.18.3",
+    "typescript": "2.8.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.15.0",
+    "typeorm": "^0.2.0"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "concurrently --kill-others 'tsc -w' 'nodemon dist/app.js'"
+  }
+}
