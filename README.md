@@ -76,14 +76,12 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 
 **API TypeORM** based on 
 
-[https://github.com/typeorm/typescript-koa-example]()
+[https://github.com/typeorm/typescript-koa-example](https://github.com/typeorm/typescript-koa-example)
     
 **Web Server** based on 
 
-[https://github.com/nextinterfaces/isomorphic-demo]()
-
-
+[https://github.com/nextinterfaces/isomorphic-demo](https://github.com/nextinterfaces/isomorphic-demo)
 
 **How to Deploy and Run on Vultr**
 
-[https://www.vultr.com/docs/deploy-a-php-application-using-docker-compose]()
+[https://www.vultr.com/docs/deploy-a-php-application-using-docker-compose](https://www.vultr.com/docs/deploy-a-php-application-using-docker-compose)
