@@ -48,7 +48,6 @@ export const conditionGetAllAction = async (context: Context) => {
     context.body = data
 }
 
-
 /**
  * Loads Condition by a given id.
  */
@@ -69,7 +68,6 @@ export const conditionGetByIdAction = async (context: Context) => {
     // return loaded data
     context.body = data
 }
-
 
 export const conditionSaveAction = async (context: Context) => {
 

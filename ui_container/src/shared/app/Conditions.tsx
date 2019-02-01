@@ -4,7 +4,6 @@ import { bindActionCreators } from 'redux';
 import { Helmet } from 'react-helmet';
 import * as actions from '../redux/actions/redux-actions'
 
-
 import { Button, Col, DropdownItem, DropdownMenu, DropdownToggle, InputGroupButtonDropdown, Row } from 'reactstrap';
 import { Util } from "../../client/Util";
 import { Spacer } from "./Spacer";

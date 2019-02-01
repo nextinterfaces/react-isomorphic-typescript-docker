@@ -37,9 +37,6 @@ class Users extends React.Component<any> {
                     {!!this.props && JSON.stringify(this.props.USER, null, 2)}
                 </pre>
                 <Spacer/>
-                <Spacer/>
-                <Spacer/>
-
                 <Footer/>
             </div>
         )

@@ -54,9 +54,6 @@ export class Protocols extends React.Component<any> {
                 </div>
 
                 <Spacer/>
-                <Spacer/>
-                <Spacer/>
-
                 <Footer/>
             </div>
         )

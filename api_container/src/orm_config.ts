@@ -3,7 +3,7 @@ export const ProdConnection = {
     "host": "h_db",
     "port": 3306,
     "username": "root",
-    "password": "r0000t",
+    "password": "password",
     "database": "nextinterfaces_db",
     "synchronize": true,
     "entities": [

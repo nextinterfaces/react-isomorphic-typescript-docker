@@ -2,7 +2,6 @@ import { Context } from "koa"
 import { getManager } from "typeorm"
 import { Protocol } from "../entity/Protocol"
 
-
 export const protocolsGetAllAction = async (context: Context) => {
     const repository = getManager().getRepository(Protocol)
     context.body = await repository.find()

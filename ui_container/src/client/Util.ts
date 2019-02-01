@@ -15,7 +15,6 @@ export class Util {
         $('.navbar-toggler').click()
     }
 
-
     static stringToCode(str) {
         if (!str) {
             return null

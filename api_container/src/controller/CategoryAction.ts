@@ -2,13 +2,11 @@ import { Context } from "koa"
 import { getManager } from "typeorm"
 import { Category } from "../entity/Category";
 
-
 export const categoryGetAllAction = async (context: Context) => {
     const repo = getManager().getRepository(Category)
     const data = await repo.find()
     context.body = data
 }
-
 
 export const categoryGetByIdAction = async (context: Context) => {
     const repo = getManager().getRepository(Category)
@@ -21,7 +19,6 @@ export const categoryGetByIdAction = async (context: Context) => {
     // return loaded data
     context.body = data
 }
-
 
 export const categorySaveAction = async (context: Context) => {
     const repo = getManager().getRepository(Category)

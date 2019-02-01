@@ -3,7 +3,6 @@ import RedirectWithStatus from './redirect-w-status';
 import NavbarComponent from './NavbarComponent';
 import routeOptions from '../routes/routes';
 
-
 import * as React from "react"
 import { Globals } from "../Globals";
 import { Profile } from "./Profile";

@@ -27,7 +27,7 @@ export default class NavbarComponent extends React.Component<any, any> {
     }
 
     static fetchData() {
-        // console.log('test')
+        // ..
     }
 
     toggle() {
@@ -45,24 +45,6 @@ export default class NavbarComponent extends React.Component<any, any> {
     render() {
         return (
             <div>
-                {/*<nav className="navbar navbar-expand-md navbar-light fixed-top bg-lignt">*/}
-                {/*<Link to='/' className="navbar-brand">&nbsp;</Link>*/}
-                {/*<NavbarToggler onClick={this.toggle}/>*/}
-                {/*<Collapse isOpen={this.state.isOpen} navbar>*/}
-                {/*<Nav className="ml-auto" navbar>*/}
-                {/*<NavItem>*/}
-                {/*<Link to='/conditions' className="nav-link" onClick={this.toggle}>Conditions</Link>*/}
-                {/*</NavItem>*/}
-                {/*<NavItem>*/}
-                {/*<Link to='/protocols' className="nav-link" onClick={this.toggle}>Protocols</Link>*/}
-                {/*</NavItem>*/}
-                {/*<NavItem>*/}
-                {/*<Link to='/people' className="nav-link" onClick={this.toggle}>Users</Link>*/}
-                {/*</NavItem>*/}
-                {/*</Nav>*/}
-                {/*</Collapse>*/}
-                {/*</nav>*/}
-
                 <nav className="navbar navbar-expand-md navbar-light fixed-top">
                     <Link to='/' className="navbar-brand">&nbsp;</Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -82,10 +64,6 @@ export default class NavbarComponent extends React.Component<any, any> {
                                 <Link to='/people' className="nav-link" onClick={this.toggle}>Users</Link>
                             </li>
                         </ul>
-                        {/*<form className="form-inline mt-2 mt-md-0">*/}
-                        {/*<input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />*/}
-                        {/*<button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*/}
-                        {/*</form>*/}
                     </div>
                 </nav>
 

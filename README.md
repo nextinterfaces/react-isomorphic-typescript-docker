@@ -52,7 +52,7 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |
 |            React
 |
-|            Redux
+|            Redux, Thunk
 |
 |            ReactRouter
 |
