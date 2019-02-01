@@ -32,11 +32,11 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |	
 |        a Docker container 
 |        
-|        Node.js Rest API service
+|        Node.js Restful API service
 |        
 |        TypeScript
 |
-|        TypeORM 
+|        TypeORM
 |
 |------------------------------------
 |  
@@ -44,11 +44,19 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |	
 |        a Docker container 
 |        
-|        React server rendering on Node.js
+|        React server-side rendering on Node.js
 |        
-|        also hosts client rich JS converting Web app to a Single Page Application
+|        rich Single Page Application client render
 |        
 |        TypeScript
+|
+|        React
+|
+|        Redux
+|
+|        ReactRouter
+|
+|        communicates to API via JSON ajax
 |
 |------------------------------------
 |        
@@ -56,11 +64,11 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |    
 |        a Docker container 
 |
-|        a front facing web server
+|        web front-facing server
 |		 
 |        proxing to API and Web server
 |       
-|        handles SSL connection
+|        handling SSL connection
 |
 |------------------------------------
 |
