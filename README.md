@@ -12,18 +12,18 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 
 * **TypeORM** database layer
 
-* **Dockerized** containers for Client (Nginx), API Server (Node.js), Database (MySQL)
+* **Dockerized** containers for Client (Node.js), API Server (Node.js), Proxy(Nginx), Database (MySQL)
 
 * Vultr or **DigitalOcean** CI/CD pipeline deployment ready 
  
 
 ### Browser Flow:
 
- - Web site is accessed for 1st time
- - Server renders initial page without any Single Page application delay
- - Meanwhile client SPA JS libraries are loaded, Web site silently becomes SPA
+ 1. When web site is accessed for 1st time
+ 2. The server renders initial page without any Single Page application delay
+ 3. Meanwhile client SPA JS libraries are loaded and web site silently becomes SPA
 
-### Server Architecture:
+### Architecture:
 
 ```
 ------------------------------------
