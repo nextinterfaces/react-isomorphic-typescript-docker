@@ -19,9 +19,10 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 
 ### Browser Flow:
 
- 1. When web site is accessed for 1st time
- 2. The server renders initial page without any Single Page application delay
- 3. Meanwhile client SPA JS libraries are loaded and web site silently becomes SPA
+ 1. When web site is accessed for a first time
+ 2. The server renders the initial page directly on Node.js, before the Single Page Application is loaded
+ 3. Meanwhile client SPA JS libraries are loaded and rendered and web site silently becomes SPA
+ 4. This allows web site to renders instantly without SPA delays
 
 ### Architecture:
 
