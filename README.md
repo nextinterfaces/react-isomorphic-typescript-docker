@@ -31,7 +31,7 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |
 |	** API Server **
 |	
-|            a Docker container
+|            [ a Docker container ]
 |        
 |            Node.js Restful API service
 |        
@@ -43,7 +43,7 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |  
 |	** Web Server **
 |	
-|            a Docker container
+|            [ a Docker container ]
 |        
 |            React server-side rendering on Node.js
 |        
@@ -63,7 +63,7 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |        
 |    ** Nginx **
 |    
-|            a Docker container
+|            [ a Docker container ]
 |
 |            web front-facing server
 |		 
@@ -75,7 +75,7 @@ Ready for VPS deployment on DigitalOcean or Vultr.
 |
 |    ** MySQL **
 |    
-|            MySQL Docker container
+|            [ MySQL Docker container ]
 |
 ------------------------------------
 ```
